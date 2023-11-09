@@ -3,6 +3,10 @@
 
 Cambiando solo en el .env se deja de ver la pagina generada. Si se cambia en el.env y el yalm, no se observan diferencias. 
 
+# P2
+
+Tiene problemas de conexion por este error: 
+services.server Additional property db is not allowed
 
 
 

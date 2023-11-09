@@ -4,9 +4,7 @@ from flask import Flask, render_template, request, url_for, redirect
 
 VERSION = "v0.1.0"
 
-
 app = Flask(__name__)
-
 
 def get_db_connection():
     conn = psycopg2.connect(
@@ -16,7 +14,6 @@ def get_db_connection():
         password=os.environ["DB_PASSWORD"],
     )
     return conn
-
 
 @app.route("/")
 def index():
