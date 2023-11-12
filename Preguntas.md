@@ -8,5 +8,5 @@ Cambiando el Yalm y el .env es posible ver la pagina, no así con solo el .env
 Tiene problemas de conexion por este error: 
 services.server Additional property db is not allowed
 
-
+# P3
 
